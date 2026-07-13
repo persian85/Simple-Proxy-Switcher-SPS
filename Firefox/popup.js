@@ -160,3 +160,8 @@ clearBtn.addEventListener('click', () => {
 });
 
 loadProfiles();
+// باز کردن امن لینک گیت‌هاب در تب جدید برای همگام‌سازی کامل کروم و فایرفاکس
+document.querySelector('.footer a').addEventListener('click', (e) => {
+  e.preventDefault();
+  chrome.tabs.create({ url: e.target.href });
+});
