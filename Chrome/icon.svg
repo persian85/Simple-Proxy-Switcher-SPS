@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- پس‌زمینه دایره‌ای سرمه‌ای -->
+  <circle cx="64" cy="64" r="60" fill="#1E293B" />
+  
+  <!-- خطوط شبکه و اتصال -->
+  <path d="M34 64 C 34 40, 94 40, 94 64 C 94 88, 34 88, 34 64 Z" fill="none" stroke="#38BDF8" stroke-width="4" opacity="0.4" />
+  <path d="M64 14 C 40 14, 40 114, 64 114 C 88 114, 88 14, 64 14 Z" fill="none" stroke="#38BDF8" stroke-width="4" opacity="0.4" />
+  
+  <!-- سپر مرکزی به نشانه امنیت و پروکسی -->
+  <path d="M64 34 L88 42 V66 C88 84, 64 96, 64 96 C 64 96, 40 84, 40 66 V42 Z" fill="#0EA5E9" />
+  
+  <!-- تیک متمایز کننده داخل سپر -->
+  <path d="M54 64 L61 71 L74 55" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
