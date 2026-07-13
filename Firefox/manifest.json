@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Proxy Switcher",
+  "version": "1.5",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "simple-proxy-switcher@myself.local",
+      "strict_min_version": "109.0"
+    }
+  }
+}
